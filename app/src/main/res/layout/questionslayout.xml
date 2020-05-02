@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="So...Let's Start.."
+        android:textColor="#a0b5cb"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/yesteryear"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="How was the Day?"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv2"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Best thing that I did..."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Some goodness I've tried to spread.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cv4"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Made someone happy?"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/pos1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/neg1"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv5"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Person who made my day.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="A thought that did'nt leave me.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Tried random politeness.."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/pos2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/neg2"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Helped a needy.."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/pos3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/neg3"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Been humble to god?"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/pos4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/neg4"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Today's best food.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="A new song listened to.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:elevation="100dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="15dp"
+        android:id="@+id/cv12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/bg1"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:text="Learnt something new?"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_weight="1"/>
+
+        <TextView android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Yes"
+                android:textAllCaps="false"
+                android:textColor="#ee27ff01"
+                android:id="@+id/pos5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textColor="#eee12323"
+                android:id="@+id/neg5"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv13">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Something I am guilty for.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Wasted food??"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/pos6"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/neg6"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv15">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Time that i didnt utilise.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv16"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="Misbehaved someone?"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_weight="1"/>
+
+            <TextView android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textColor="#eee12323"
+                    android:id="@+id/pos7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textColor="#ee27ff01"
+                    android:id="@+id/neg7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv17"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="A promise for tomorrow.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ans10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv18"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="A note for today.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <LinearLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/ans11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+
+                <ImageButton android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="left"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/voice_click"
+                    android:src="@drawable/ic_mic_black_24dp"
+                    android:background="@android:color/transparent"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:elevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="15dp"
+        android:id="@+id/cv19"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg1">
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:text="If I could name the day.."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save It.."
+                android:textAllCaps="false"
+                android:background="@drawable/roundbutton_positive"
+                android:id="@+id/save"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
